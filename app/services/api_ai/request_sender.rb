@@ -15,8 +15,8 @@ module ApiAi
 
     def response
       HTTP
-        .auth("Bearer #{ENV['ACCESS_TOKEN_APIAI']}")
-        .get(ENV['API_AI_URL'], params: {
+        .auth("Bearer #{ENV['APIAI_ACCESS_TOKEN']}")
+        .get(ENV['APIAI_URL'], params: {
           v: '20170926',
           sessionId: session_id,
           query: message,
