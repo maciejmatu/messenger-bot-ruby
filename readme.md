@@ -6,3 +6,6 @@ To run the server simply type `rerun 'rackup'` in the terminal. When developing 
 Next steps:
 - [ ] Add possibility to see who died and who was born
 - [ ] Handle case when message is too long
+- [ ] Integrate testing
+- [ ] Maybe add some webview to list all the events
+- [ ] Cache responses for certain days (some kind of CRON)
