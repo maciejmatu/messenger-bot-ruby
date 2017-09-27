@@ -1,7 +1,7 @@
 module Actions
   class DateAction
     def call
-      target_date = Date.parse(data[:output]).strftime('%-m/%d')
+      target_date = Date.parse(data[:output]).strftime('/%-m/%d')
       random_fact = HistoryService.load_random(target_date)
 
       [

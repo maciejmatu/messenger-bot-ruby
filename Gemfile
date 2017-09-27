@@ -9,3 +9,7 @@ gem 'sucker_punch', '~> 2.0'
 group :development do
   gem 'rerun'
 end
+
+group :test do
+  gem 'rspec'
+end
